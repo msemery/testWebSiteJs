@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+body {
+    margin: 0;
+}
+#container {
+    width: 100%;
+    height: 100vh;
+    background: black;
+}
+
+#hamburger {
+    width: 225px;
+    height: 100vh;
+    background: grey;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#menu {
+    list-style: none;
+    padding-left: 60px;
+    position: fixed;
+}
+
+.menuElement {
+    height: 50px;
+    display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+}
+
+.test {
+    position: absolute;
+    right: -213px;
+    opacity: 0.6;
+}
+
+#menuCross {
+    position: fixed;
+    right: 15px;
+    top: 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+}
+
+#menuHome {
+    margin-top: 2em;
+}
+
+#rectangleRed {
+    width: 50%;
+    height: 25%;
+    background: red;
+    opacity: 0.8;
+    bottom: -85px;
+    position: absolute;
+    z-index: 15;
+    overflow: hidden;
+}
+
+#rectangleBlack {
+    background: black;
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+
+#rectangleWhite {
+    background: white;
+    width: 500px;
+    height: 600px;
+    position: absolute;
+}
+
+#containertest {
+    width: 200px;
+    height: 55px;
+    background: blue;
+    overflow: hidden;
+    margin-top: 300px;
+}
+
+#title {
+    margin-top: 0;
+}
+
+#text {
+    font-size: 20px;
+    text-align: center;
+}
+
